@@ -1,0 +1,96 @@
+/* Home.css */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Titillium Web", sans-serif;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.title {
+  text-align: center;
+  margin-top: 0; /* Remove the top margin */
+}
+
+.title h1 {
+  font-size: 2em;
+  color: #29335c; /* Main color */
+}
+
+.title p {
+  margin-top: 10px;
+  color: #555;
+}
+
+.intro-section {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start; /* Align items to the start */
+  flex-wrap: wrap;
+  margin: 20px;
+}
+
+.video-intro {
+  flex: 1;
+  padding: 20px;
+  margin-right: 20px;
+  background-color: #f5f5f5; /* Light gray background */
+  border-radius: 10px;
+  box-sizing: border-box;
+  width: 60%;
+  text-align: left; /* Align text to the left */
+}
+
+.intro-image {
+  max-width: 10%;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.video-intro h2 {
+  font-size: 1.5em;
+  color: #29335c; /* Main color */
+}
+
+.video-intro p {
+  color: #555;
+}
+
+.play-video {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  width: 40%;
+}
+
+.play-video button {
+  margin-top: 10px;
+  padding: 8px 12px; /* Adjust padding for a smaller button size */
+  font-size: 0.9em; /* Adjust font size for a smaller button */
+  background-color: #29335c; /* Main color */
+  color: #fff; /* Text color */
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.play-video button:hover {
+  background-color: #5767aa; /* Lighter shade of the main color on hover */
+}
+
+/* main.css */
+@import url("https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300;400;700&display=swap");
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Titillium Web", sans-serif;
+}
+

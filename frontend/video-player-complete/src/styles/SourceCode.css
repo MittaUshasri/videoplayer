@@ -1,0 +1,79 @@
+/* SourceCode.css */
+.source-code-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px;
+  background: white;
+  box-sizing: border-box;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.source-code-text {
+  max-width: 100%;
+  margin-bottom: 20px;
+  box-sizing: border-box;
+  text-align: left;
+}
+
+.source-code-text h1 {
+  background-image: linear-gradient(to right, #3494e6, #ec6ead);
+  -webkit-background-clip: text;
+  color: transparent;
+  font-size: 2em;
+  margin-bottom: 10px;
+}
+
+.source-code-text p {
+  margin-bottom: 20px;
+}
+
+.source-code-text img{
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  max-width: 100%; /* Add this line to ensure the image doesn't overflow */
+}
+
+.source-code-image img {
+  max-width: 50%;
+  border-radius: 10px;
+  margin-right: 20px;
+}
+
+.video-player-code {
+  background: #3494e6;
+  color: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-sizing: border-box;
+  margin: 0;
+}
+
+.video-player-code h1,
+.video-player-code h2 {
+  padding: 15px;
+  margin: 0;
+}
+
+.video-player-code h1 {
+  background: black;
+}
+
+.video-player-code h2 {
+  background: rgb(2, 0, 129);
+  color: rgb(255, 255, 255);
+}
+
+@media screen and (min-width: 768px) {
+  .source-code-container {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+
+  .source-code-text {
+    max-width: 60%;
+  }
+}
